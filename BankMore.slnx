@@ -1,0 +1,39 @@
+<Solution>
+  <Folder Name="/BankMore.Account/">
+    <Project Path="BankMore.Account.Api/BankMore.Account.Api.csproj" />
+    <Project Path="BankMore.Account.Application/BankMore.Account.Application.csproj" />
+    <Project Path="BankMore.Account.Domain/BankMore.Account.Domain.csproj" />
+    <Project Path="BankMore.Account.Infrastructure/BankMore.Account.Infrastructure.csproj" />
+    <Project Path="BankMore.Account.Tests/BankMore.Account.Tests.csproj" Id="ba6d3313-9729-41cf-8740-dab256622551" />
+  </Folder>
+  <Folder Name="/BankMore.JwtService/">
+    <Project Path="BankMore.JwtService/BankMore.JwtService.csproj" />
+  </Folder>
+  <Folder Name="/BankMore.Transfer/">
+    <Project Path="BankMore.Transfer.Api/BankMore.Transfer.Api.csproj" />
+    <Project Path="BankMore.Transfer.Application/BankMore.Transfer.Application.csproj" Id="c76d3290-faae-4aae-bbb0-dba207b1da72" />
+    <Project Path="BankMore.Transfer.Domain/BankMore.Transfer.Domain.csproj" Id="095fdbfd-f41e-4ee0-8df9-c3b567d81789" />
+    <Project Path="BankMore.Transfer.Infrastructure/BankMore.Transfer.Infrastructure.csproj" Id="e1faefa3-cb09-4561-a8ad-349e1cb9ba55" />
+    <Project Path="BankMore.Transfer.Tests/BankMore.Transfer.Tests.csproj" Id="d4b7409f-dd16-4a10-97f5-d1390eb048c7" />
+  </Folder>
+  <Folder Name="/Infra/" />
+  <Folder Name="/Infra/compose/">
+    <File Path="Infra/compose/.env" />
+    <File Path="Infra/compose/docker-compose.yml" />
+  </Folder>
+  <Folder Name="/Infra/dockerfiles/">
+    <File Path="Infra/dockerfiles/account.api.Dockerfile" />
+    <File Path="Infra/dockerfiles/transfer.api.Dockerfile" />
+  </Folder>
+  <Folder Name="/Infra/sqlserver/" />
+  <Folder Name="/Infra/sqlserver/account/">
+    <File Path="Infra/sqlserver/account/initdatabaseaccount.sh" />
+    <File Path="Infra/sqlserver/account/initdatabaseaccount.sql" />
+  </Folder>
+  <Folder Name="/Infra/sqlserver/transfer/">
+    <File Path="Infra/sqlserver/transfer/initdatabasetransfer.sh" />
+    <File Path="Infra/sqlserver/transfer/initdatabasetransfer.sql" />
+  </Folder>
+  <Project Path="BankMore.AppHost/BankMore.AppHost.csproj" />
+  <Project Path="BankMore.ServiceDefaults/BankMore.ServiceDefaults.csproj" />
+</Solution>

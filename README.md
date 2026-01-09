@@ -1,1 +1,1 @@
-# PremierSoft-BankMore
+# BankMore
